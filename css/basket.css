@@ -1,0 +1,130 @@
+#count-items {
+    font-size: 13px;
+    color: #999;
+    line-height: 17px;
+    margin-left: 12px;
+}
+
+.item {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bordered-bottom {
+    border-bottom: 1px solid #ececec;
+}
+
+.button {
+    cursor: pointer;
+    transition: color .12s ease-out;
+    text-decoration: none;
+    outline: 0;
+    touch-action: manipulation;
+    color: #21201f;
+}
+
+.button:disabled {
+    color: #cbcac8;
+}
+
+.big-button{
+    height: 56px;
+    border-radius: 12px;
+    transition: all .12s ease-out;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.button-text {
+    color: #21201f;
+    transition: all .12s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 16px!important;
+    line-height: 24px!important;
+    height: 56px;
+}
+
+.yellow-button {
+    letter-spacing: 0;
+    background-color: #fce000;
+}
+
+.item-price {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+    width: 120px;
+    min-width: 120px;
+}
+
+.old-price {
+    position: relative;
+    color: #8a8784;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    width: 40px;
+}
+
+.crossed:before {
+    content: " ";
+    position: absolute;
+    background-color: #fc5230;
+    left: -1px;
+    right: -1px;
+    top: 50%;
+    height: 2px;
+    border-radius: 2px;
+    opacity: .8;
+    transform: matrix(1,-.09,.07,1,0,0) translateY(-50%);
+}
+
+.sale {
+    color: #fc5230;
+}
+
+.amount {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.amount-value {
+    text-align: center;
+}
+
+.remove {
+    margin-top: 40px;
+}
+
+.item-remove {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #898f97;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.remove-cross {
+    width: 20px;
+    height: 20px;
+}
+
+.item-remove-text {
+    display: inline-flex;
+    color: #1b52b2;
+    margin-left: 4px;
+    font-size: 13px;
+    line-height: 17px;
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+ 
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Форма конзины интернет магазина</title>
+    <link rel="stylesheet" href="css/basket.css" />
+    <link rel="stylesheet" href="/css/main.css"></link>
+    <script type="text/javascript" src="js/basket.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div id="basket">
+                <h1>Корзина <span id="count-items" class="label">2 товара</span></h1>
+                <div class="item-list grid-container grid-2-col">
+                    <div>
+                        <div class="item bordered-bottom grid-container grid-3-col">
+                            <div class="picture">
+                                <img src="img/mouse.webp" width="100px" height="100px" />
+                            </div>
+                            <div class="item-info">
+                                <div class="name">Мышь Xiaomi Mi Dual Mode Wireless Mouse Silent Edition White WXSMSBMW02</div>
+                                <div class="remove">
+                                    <span>
+                                        <button class="item-remove">
+                                            <div class="remove-cross">
+                                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-tid="129552f3">
+                                                    <path d="M3 3L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                                                    <path d="M17 3L3 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                                                </svg>
+                                            </div>
+                                            <span class="item-remove-text">Удалить</span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <div class="actual-price sale"><span class="price-value">1345</span> <small class="currency">₽</small></div>
+                                <div class="old-price crossed"><span class="price-value">1460</span> <small class="currency">₽</small></div>
+                                <div class="amount">
+                                    <div class="amount-select grid-container grid-3-col">
+                                        <button class="amount-decreace" disabled="" type="button"><span><svg aria-hidden="true" width="12" height="2" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 1a1 1 0 0 0 1 1h10a1 1 0 1 0 0-2H1a1 1 0 0 0-1 1z" fill="currentColor"></path></svg></span></button>
+                                        <div class="amount-value">1</div>
+                                        <button class="amount-increace" type="button"><span><svg aria-hidden="true" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 0a1 1 0 0 0-1 1v4H1a1 1 0 0 0 0 2h4v4a1 1 0 1 0 2 0V7h4a1 1 0 1 0 0-2H7V1a1 1 0 0 0-1-1z" fill="currentColor"></path></svg></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item grid-container grid-3-col">
+                            <div class="picture">
+                                <img src="img/mousepad.webp" width="100px" height="100px" />
+                            </div>
+                            <div class="item-info">
+                                <div class="name">Коврик HAMA Aluminium (00054781) silver</div>
+                                <div class="remove">
+                                    <span>
+                                        <button class="item-remove">
+                                            <div class="remove-cross">
+                                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-tid="129552f3">
+                                                    <path d="M3 3L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                                                    <path d="M17 3L3 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                                                </svg>
+                                            </div>
+                                            <span class="item-remove-text">Удалить</span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <div class="actual-price sale"><span class="price-value">840</span> <small class="currency">₽</small></div>
+                                <div class="old-price crossed"><span class="price-value">980</span> <small class="currency">₽</small></div>
+                                <div class="amount">
+                                    <div class="amount-select grid-container grid-3-col">
+                                        <button class="amount-decreace" disabled="" type="button"><span><svg aria-hidden="true" width="12" height="2" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 1a1 1 0 0 0 1 1h10a1 1 0 1 0 0-2H1a1 1 0 0 0-1 1z" fill="currentColor"></path></svg></span></button>
+                                        <div class="amount-value">1</div>
+                                        <button class="amount-increace" type="button"><span><svg aria-hidden="true" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 0a1 1 0 0 0-1 1v4H1a1 1 0 0 0 0 2h4v4a1 1 0 1 0 2 0V7h4a1 1 0 1 0 0-2H7V1a1 1 0 0 0-1-1z" fill="currentColor"></path></svg></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cart-summary" class="summary">
+                        <div class="button big-button yellow-button">
+                            <span class="button-text">Перейти к оформлению</span>
+                        </div>
+                        <div class="summary-info">
+                            <div class="summary grid-container grid-2-col">
+                                <h3>Итого:</h3>
+                                <div id="total-value"></div>
+                            </div>
+                            <div class="summary grid-container grid-2-col">
+                                <div>Без скидки:</div>
+                                <div id="total-without-discount-value"></div>
+                            </div>
+                            <div class="summary grid-container grid-2-col">
+                                <div>Скидка:</div>
+                                <div id="total-discount-value"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
